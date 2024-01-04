@@ -4,9 +4,9 @@ const Header = (props) => {
 
     return (
         
-        <header>
-            <div className="holder">
-                <img src="./img/azar.png" width="100" alt="Stray Sharpies" />
+        <header >
+            <div className='holder menu-container'>
+                <img src="./img/TSS1.svg" width="150" height="150" alt="Stray Sharpies" />
                 <h1>Stray Sharpies</h1>
             </div>
         </header>
