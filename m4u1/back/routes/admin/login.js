@@ -8,6 +8,15 @@ router.get('/', function (req, res, next) {
   });
 });
 
+router.get('/logout', function (req, res, next) {
+  req.session.destroy();
+  res.render('admin/login', {
+    layout: 'admin/layout'
+  });
+});
+
+
+
 // En login.js
 router.post('/', async (req, res, next) => {
     try {
@@ -17,7 +26,8 @@ router.post('/', async (req, res, next) => {
 
         var data = await usuariosModel.getUserByUsernameAndPassword(usuario, password);
 
-        if (data != undefined) {
+        if (data != undefined) {          
+
           req.session.id_usuario = data.id;
           req.session.nombre = data.usuario;
           res.redirect('/admin/novedades');
