@@ -36,11 +36,6 @@ app.use(session ({
   saveUninitialized: true
 }))
 
-app.use(fileUpload ({
-  useTempFiles: true,
-  tempFileDir: '/tmp/'
-}));
-
 secured = async(req, res, next) => {
   try {
     console.log (req.session.id_usuario);
@@ -53,6 +48,11 @@ secured = async(req, res, next) => {
     console.log(error);
   }
 }
+
+app.use(fileUpload ({
+  useTempFiles: true,
+  tempFileDir: '/tmp/'
+}));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

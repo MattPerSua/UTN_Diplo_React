@@ -43,6 +43,13 @@ const Nav = (props) => {
               </a>
             </NavLink>
           </li>
+          <li className="nav__item">
+            <NavLink to="/Novedades" className={({ isActive }) => isActive ? "activo" : undefined}>
+              <a href="novedades.html" className="nav__link">
+                <i className="ri-survey-line"></i> Novedades
+              </a>
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>

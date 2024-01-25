@@ -11,6 +11,7 @@ import GaleriaPage from "./pages/GaleriaPage";
 import TemporadasPage from "./pages/TemporadasPage";
 import PersonajesPage from "./pages/PersonajesPage";
 import ContactoPage from "./pages/ContactoPage";
+import NovedadesPage from "./pages/NovedadesPage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Temporadas" element={<TemporadasPage />} />
           <Route path="/Galeria" element={<GaleriaPage />} />
           <Route path="/Contacto" element={<ContactoPage />} />
+          <Route path="/Novedades" element={<NovedadesPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
