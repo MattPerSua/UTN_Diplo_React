@@ -39,11 +39,19 @@
             <tr>
               <th scope="row">{{id}}</th>
               <td>{{titulo}}</td>
-              <td> {{imagen}} </td>
+              <td>{{{imagen}}}</td>
               <td class="text-center">
-                <a href="/admin/novedades/modificar/{{id}}" class="btn btn-sm btn-secondary" title="Editar">
+                <a
+                  href="/admin/novedades/modificar/{{id}}"
+                  class="btn btn-sm btn-secondary"
+                  title="Editar"
+                >
                   <i class="bi bi-pencil-fill"></i></a>
-                <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-sm btn-secondary" title="Eliminar">
+                <a
+                  href="/admin/novedades/eliminar/{{id}}"
+                  class="btn btn-sm btn-secondary"
+                  title="Eliminar"
+                >
                   <i class="bi bi-trash"></i></a>
               </td>
             </tr>
