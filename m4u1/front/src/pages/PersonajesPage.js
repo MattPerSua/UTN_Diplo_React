@@ -17,7 +17,7 @@ const PersonajesPage = (props) => {
                 <img className="img-card" src="/personajes/chandler.png" alt="Chandle Goodenough, Bardo Monje."/>
               </div>
               <div className="descripcion">
-                <h2>Chandler Goodenough</h2>
+                <h2>Chandler G.</h2>
                 <p>Bardo Monje <span>Nivel 10</span></p>
               </div>
               <div className="btn-div">

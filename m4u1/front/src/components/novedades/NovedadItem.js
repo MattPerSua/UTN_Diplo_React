@@ -5,13 +5,12 @@ const NovedadItem = (props) => {
     const { title, subtitle, imagen, body } = props;
 
     return (
-        <div className='novedades'>
-            <h1>{title}</h1>
-            <h2>{subtitle}</h2>
-            <img src={imagen} alt=''/>
-            <div dangerouslySetInnerHTML={{ __html: body }} />
-            <hr />
-        </div>
+        <div className="novedad-item">
+        <img src={imagen} alt={title} />
+        <h3>{title}</h3>
+        <p>{subtitle}</p>
+        <p>{body}</p>
+    </div>
     );
 }
 

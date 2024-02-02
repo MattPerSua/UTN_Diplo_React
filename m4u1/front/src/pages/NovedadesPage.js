@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from "react";
 import axios from 'axios';
 import NovedadItem from '../components/novedades/NovedadItem';
+import '../styles/novedad.css'
 
 const NovedadesPage = (props) => {
 
@@ -19,14 +20,21 @@ const NovedadesPage = (props) => {
     }, []);
 
     return (
-        <section className="holder">
+        <section className="novedad">
             <h2>Novedades</h2>
             {loading ? (
                 <p>Cargando...</p>
             ) : (
-                novedades.map(item => <NovedadItem Key= {item.id}
-                    title={item.titulo} subtitle={item.subtitulo}
-                    imagen={item.imagen} body={item.cuerpo} />)
+                novedades.map(item => (
+                    <div className="novedad-item" key={item.id}>
+                        <NovedadItem
+                            title={item.titulo}
+                            subtitle={item.subtitulo}
+                            imagen={item.imagen}
+                            body={item.cuerpo}
+                        />
+                    </div>
+                ))
             )}
         </section>
     );
