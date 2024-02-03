@@ -25,6 +25,16 @@
     margin-bottom: 10px;
 }
 
+/* Agrega una clase para el estado expandido de la imagen */
+.novedad-item img.expanded {
+    width: 100%; /* Establece el ancho al 100% para expandir la imagen */
+    height: auto;
+    cursor: zoom-out; /* Cambia el cursor al hacer clic para indicar que se puede reducir */
+}
+
+/* Resto del código CSS ... */
+
+
 .novedad-item h3 {
     color: #555;
     font-size: 18px;

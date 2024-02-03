@@ -1,7 +1,6 @@
 body {
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
-    font-family: Sans-Serif;
     margin: 0;
     background-color: #fcf5ed;
   }
@@ -22,6 +21,17 @@ body {
     padding: 5px 0;
     margin-top: 20px;
   }
+
+  .header-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #748e63;
+    color: #a8ce7d;
+    box-sizing: border-box;
+  }
   
   .menu-container {
     position: relative;
@@ -32,6 +42,7 @@ body {
     background: #748e63;
     color: #a8ce7d;
     box-sizing: border-box;
+    margin-bottom: 20px;
   }
   
   .menu-logo {
@@ -68,7 +79,7 @@ body {
   }
   
   .nav__item:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Cambiar el sombreado al hacer hover */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); /* Cambiar el sombreado al hacer hover */
     
   }
   
@@ -87,7 +98,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Cambiar el sombreado al estar activo */
   }
   
-  /*  */
+  /**********/
   
   .heading {
     width: 90%;
@@ -185,7 +196,7 @@ body {
   }
   
   
-  /*  */
+  /**********/
   
   .container-galeria {
     max-width: 1224px;
@@ -211,7 +222,7 @@ body {
   
   }
   
-  /*  */
+ /**********/
   
   .team_container {
     width: 100%;
@@ -297,7 +308,7 @@ body {
     text-transform: uppercase;
   }
   
-  /*  */
+ /**********/
   
   .temp-container {
   
@@ -364,7 +375,7 @@ body {
     line-height: 1.4;
     font-family: "Montserrat", sans-serif;
   }
-  /*  */
+ /**********/
   
   
   /* Contacto inicio  */

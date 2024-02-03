@@ -20,6 +20,9 @@ const NovedadesPage = (props) => {
     }, []);
 
     return (
+
+        
+        
         <section className="novedad">
             <h2>Novedades</h2>
             {loading ? (
