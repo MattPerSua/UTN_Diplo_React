@@ -48,7 +48,7 @@ router.post('/contacto', async (req, res) => {
 
     await transport.sendMail (mail)
 
-    req.status(201).json({
+    res.status(201).json({
         error: false,
         message: 'Mensaje enviado'
     });

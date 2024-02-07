@@ -31,6 +31,7 @@ const ContactoPage = (props) => {
 
       
             const response = await axios.post('http://localhost:3000/api/contacto', formData);
+            setSending(false);
             setMsg(response.data.message);
             if (response.data.error === false) {
                 setFormData(initialForm);

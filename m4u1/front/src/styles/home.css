@@ -505,6 +505,9 @@ body {
   
   /* Mobile First */
   @media screen and (max-width: 767px) {
+
+    
+
     .menu-container {
       position: relative;
       display: flex;
@@ -530,12 +533,20 @@ body {
     .nav__item {
       margin-bottom: 10px;
     }
-  
+    
+    .nav__link i {
+      display: inline-block;
+    }
+
     .nav__link {
       text-decoration: none;
-      color: #2e64a1;
-      font-size: 18px;
+      font-size: 0px;
     }
+
+    .nav__item a.activo {
+      /* Restablecer el tamaño del texto cuando el enlace está activo */
+      font-size: 16px; /* Ajusta el tamaño según sea necesario */
+  }
   
     .menu-btn {
       display: block;
@@ -618,4 +629,6 @@ body {
     .menu .active {
       display: flex;
     }
+
+    
   }
