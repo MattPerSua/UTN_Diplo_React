@@ -13,29 +13,36 @@ const PersonajesPage = (props) => {
         <div className="row">
 
           <CardItem 
-          title="Chandle G."
+          title="Chandler"
           subtitle="Nivel 10"
           body="Bardo monje"
           imagen="/personajes/chandler.png"
+          alttex="Chandler"
           />
 
           <CardItem 
-          title="Chandle G."
+          title="Damaia"
           subtitle="Nivel 10"
-          body="Bardo monje"
-          imagen="/personajes/damaia.png"/>
+          body="Picara"
+          imagen="/personajes/damaia.png"
+          alttex="Damaia"
+          />
 
           <CardItem 
-          title="Chandle G."
+          title="Ember"
           subtitle="Nivel 10"
-          body="Bardo monje"
-          imagen="/personajes/ember.png"/>
-          
+          body="Druida"
+          imagen="/personajes/ember.png"
+          alttex="Ember"
+          />
+
           <CardItem 
-          title="Chandle G."
+          title="Luthien"
           subtitle="Nivel 10"
-          body="Bardo monje"
-          imagen="/personajes/luthien.png"/>
+          body="Paladina - Ex Hechicera"
+          imagen="/personajes/luthien.png"
+          alttex="Luthien"
+          />
           
           
         </div>        

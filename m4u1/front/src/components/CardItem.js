@@ -8,7 +8,7 @@ const CardItem = (props) => {
         <div className="tarj-perfil">
             <div className="profile-content">
               <div className="profile-image">
-                <img className="img-card" src={props.imagen} alt="Chandle Goodenough, Bardo Monje."/>
+                <img className="img-card" src={props.imagen} alt={props.alttex}/>
               </div>
               <div className="descripcion">
                 <h2>{props.title}</h2>
@@ -27,6 +27,8 @@ CardItem.propTypes = {
     subtitle: PropTypes.string.isRequired,
     imagen: PropTypes.string.isRequired,
     body: PropTypes.string.isRequired,
+    alttex: PropTypes.string.isRequired,
+
 };
 
 export default CardItem;
