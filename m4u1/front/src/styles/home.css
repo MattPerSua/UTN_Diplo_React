@@ -381,11 +381,15 @@ body {
   /* Contacto inicio  */
   
   .wrapper {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   
+  }
+
+  .datos {
+    margin-left: 20px;
   }
   
   .form-area{

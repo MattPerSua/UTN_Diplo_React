@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  font-family: Sans-Serif;
+
   margin: 0;
   background-color: #fcf5ed;
 }
@@ -86,7 +86,7 @@ ul {
   font-size: 1.25rem;
 }
 
-/*  */
+/***********/
 
 .heading {
   width: 90%;
@@ -184,7 +184,8 @@ ul {
 }
 
 
-/*  */
+/***********/
+
 
 .container-galeria {
   max-width: 1224px;
@@ -210,7 +211,8 @@ ul {
 
 }
 
-/*  */
+/***********/
+
 
 .team_container {
   width: 100%;
@@ -296,7 +298,8 @@ ul {
   text-transform: uppercase;
 }
 
-/*  */
+/***********/
+
 
 .temp-container {
 
@@ -363,7 +366,7 @@ ul {
   line-height: 1.4;
   font-family: "Montserrat", sans-serif;
 }
-/*  */
+/***********/
 
 
 /* Contacto inicio  */
@@ -373,6 +376,8 @@ ul {
   place-items: center;
   min-height: 70vh;
 }
+
+
 
 .form-area{
   width: 800px;

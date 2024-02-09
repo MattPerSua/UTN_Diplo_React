@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import "../styles/home.css";
 
 
 
@@ -61,8 +62,22 @@ const ContactoPage = (props) => {
                         <button type="submit" value="Enviar">Enviar</button>
                     </div>
                 </form>
-                {sending ? <p>Enviando...</p> : null}
-                {msg ? <p>{msg}</p> : null}
+                <div className="datos">
+                    <h2> Otras vias de comunicación</h2>
+                    <p>Tambien puede contactarse con nosotros usando los siguientes medios</p>
+                    <ul>
+                        <li>Teléfono: 323-555-6439</li>
+                        <li>Email: contacto@straysharpies.com</li>
+                        <li>Facebook</li>
+                        <li>Twitter:</li>
+                        <li>Instagram:</li>
+                    </ul>
+
+
+                 {sending ? <p>Enviando...</p> : null}
+                {msg ? <p>{msg}</p> : null}   
+                </div>
+                
 
             </div>
         </main>
