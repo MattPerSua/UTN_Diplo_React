@@ -15,7 +15,7 @@ const CardItem = (props) => {
                 <p>{props.subtitle} <span>{props.body}</span></p>
               </div>
               <div className="btn-div">
-                <button className="btn"><i/>Ver más</button>
+                <button className="btn"><i/> <a href='https://open.spotify.com/intl-es/track/7lRlq939cDG4SzWOF4VAnd'>Ver más</a> </button>
               </div>
             </div>
           </div>
