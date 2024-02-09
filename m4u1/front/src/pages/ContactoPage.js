@@ -47,17 +47,17 @@ const ContactoPage = (props) => {
                 <form action="/contacto" className="form-area" method='post' onSubmit={handleSubmit}>
                     <div className="input-group msg-area">
                         <label htmlFor="msg">Mensaje</label>
-                        <textarea id="msg" name='mensaje' value={formData.mensaje} onChange={handleChange} placeholder="Tu Mensaje"></textarea>
+                        <textarea id="msg" name='mensaje' value={formData.mensaje} onChange={handleChange} placeholder="Tu Mensaje" required></textarea>
                     </div>
                     <div className="input-group area-detalles">
                         <label htmlFor="email">Email</label>
-                        <input type="text" name='email' value={formData.email} onChange={handleChange} id="email" placeholder="E-m@il"/>
+                        <input type="text" name='email' value={formData.email} onChange={handleChange} id="email" placeholder="E-m@il" required/>
                         
                         <label htmlFor="nombre">Nombre</label>
-                        <input type="text" id="nombre" name='nombre' value={formData.nombre} onChange={handleChange} placeholder="Tu Nombre" />
+                        <input type="text" id="nombre" name='nombre' value={formData.nombre} onChange={handleChange} placeholder="Tu Nombre" required/>
 
                         <label htmlFor="asunto">Asunto</label>
-                        <input type="text" id="asunto" name='asunto' value={formData.asunto} onChange={handleChange} placeholder="Asunto del Mensaje"/>
+                        <input type="text" id="asunto" name='asunto' value={formData.asunto} onChange={handleChange} placeholder="Asunto del Mensaje" required/>
 
                         <button type="submit" value="Enviar">Enviar</button>
                     </div>

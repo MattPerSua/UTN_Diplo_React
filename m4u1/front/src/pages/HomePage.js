@@ -21,7 +21,7 @@ const HomePage = (props) => {
             Los Stray Sharpies
           </h2>
           <p>Una Hechicera escapando de casa, una picara escapando de las consecuencias de sus acciones, una druida buscando descubrir un mundo que le era negado y un monje con dotes musicales tratando de ganarse la vida de una manera honesta, se cuentran en un viaje donde sus vidas se conectaran de la forma más inusual y epica.</p>
-          <a href="temporadas.html" className="read-more">Leer Más</a>
+          <a href="temporadas" className="read-more">Leer Más</a>
         </div>
       </section>
     </div>
